@@ -58,7 +58,7 @@ while True:
         
         elif excedeu_saques:
             bloqueio_saque = datetime.now() + TEMPO_BLOQUEIO
-            print(f"Operação falhou! Número máximo de saques excedido. Aguardar até {bloqueio_saque.strftime('%H:%M:%S')} para poder realizar novos saques.")
+            print(f"Operação falhou! Número máximo de saques excedido. Por favor aguarde até {bloqueio_saque.strftime('%H:%M:%S')} para poder realizar novos saques.")
         
         elif valor > 0:
             saldo -= valor
