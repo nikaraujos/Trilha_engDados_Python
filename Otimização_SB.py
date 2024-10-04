@@ -16,6 +16,7 @@ def menu_principal():
     ================ MENU ================
 
     [nc]\tNova conta
+    [lc]\tListar conta
     [d]\tDepositar
     [s]\tSacar
     [e]\tExtrato
